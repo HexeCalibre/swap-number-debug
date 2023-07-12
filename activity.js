@@ -1,6 +1,12 @@
+// function swapNumbers(obj) {
+//   obj.x += obj.y;
+//   obj.y = obj.x + obj.y;
+//   obj.x = obj.x - obj.y;
+// }
+
 function swapNumbers(obj) {
   obj.x += obj.y;
-  obj.y = obj.x + obj.y;
+  obj.y = obj.x - obj.y;
   obj.x = obj.x - obj.y;
 }
 
